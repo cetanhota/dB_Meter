@@ -13,7 +13,7 @@ from drawnow import *
 
 dB= []
 
-arduinoData = serial.Serial('/dev/ttyACM1', 115200) #Creating our serial object named arduinoData
+arduinoData = serial.Serial('/dev/cu.usbmodem141401', 115200) #Creating our serial object named arduinoData
 plt.ion() #Tell matplotlib you want interactive mode to plot live data
 cnt=0
 
